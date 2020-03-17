@@ -19,5 +19,14 @@
     "url": "https://github.com/pavels3579/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/pavels3579/frontend-project-lvl1#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
