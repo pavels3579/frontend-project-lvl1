@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-console.log('Welcome to the Brain Games!!!');
+import getName from '../src/index.js';
 
-import { getName } from '../src/index.js';
+console.log('Welcome to the Brain Games!!!');
 
 console.log(`Hello, ${getName()}`);
