@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"author",
+				"author_id"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"question",
+				"question_id"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"ques",
+				"question_id"
+			],
+			[
+				"fo",
+				"form-check"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"Tes",
+				"test_passage"
+			],
+			[
+				"ans",
+				"answer_ids"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"si",
+				"suit"
+			],
+			[
+				"use",
+				"used_cards"
+			],
+			[
+				"to",
+				"to_sym"
+			],
+			[
+				"name",
+				"name_history"
+			],
+			[
+				"tra",
+				"train"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"car",
+				"carriage"
+			],
+			[
+				"re",
+				"rescue"
+			],
+			[
+				"tr",
+				"train_number"
+			],
+			[
+				"ca",
+				"carriages"
+			],
+			[
+				"carr",
+				"carriage"
+			],
+			[
+				"стан",
+				"станция"
+			],
+			[
+				"P",
+				"PassengerTrain"
+			],
+			[
+				"route",
+				"routes"
+			],
+			[
+				"statio",
+				"stations"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 132.0,
+		"last_filter": "subli: ",
+		"selected_items":
+		[
+			[
+				"subli: ",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: form_for label"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 292.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/paul/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/paul/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/paul/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/paul/js/frontend-project-lvl1/.eslintrc.yml",
+		"/home/paul/js/frontend-project-lvl1/bin/brain-games.js",
+		"/home/paul/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/paul/js/frontend-project-lvl1/settings before",
+		"/home/paul/js/frontend-project-lvl1/Makefile",
+		"/home/paul/js/frontend-project-lvl1/README.md",
+		"/home/paul/js/frontend-project-lvl1/.eslintignore",
+		"/home/paul/js/frontend-project-lvl1/babel.config.js",
+		"/home/paul/js/js_setup_enviroment_course/node_modules/lodash/package.json",
+		"/home/paul/js/frontend-project-lvl1/package.json",
+		"/home/paul/js/frontend-project-lvl1/.gitignore",
+		"/home/paul/js/js_setup_enviroment_course/package.json",
+		"/home/paul/js/js_setup_enviroment_course/.gitignore",
+		"/home/paul/js/nodejs-package/src/half.js",
+		"/home/paul/js/js_setup_enviroment_course/index.js",
+		"/home/paul/js/nodejs-package/dist/half.js",
+		"/home/paul/js/nodejs-package/package.json",
+		"/home/paul/js/first/index.js",
+		"/home/paul/sport/app/models/result.rb",
+		"/home/paul/sport/db/seeds.rb",
+		"/home/paul/sport/db/schema.rb",
+		"/home/paul/sport/README.md",
+		"/home/paul/sport/app/models/player.rb",
+		"/home/paul/sport/app/models/mark.rb",
+		"/home/paul/sport/app/models/team.rb",
+		"/home/paul/sport/db/migrate/20191005174934_change_match_teams_rename_column.rb",
+		"/home/paul/sport/db/migrate/20191005175914_change_results_rename_column_game.rb",
+		"/home/paul/sport/app/models/application_record.rb",
+		"/home/paul/sport/app/models/match.rb",
+		"/home/paul/sport/db/migrate/20191005171856_change_players.rb",
+		"/home/paul/sport/db/migrate/20191005172712_change_teams.rb",
+		"/home/paul/sport/app/models/match_team.rb",
+		"/home/paul/qna/README.md",
+		"/home/paul/sport/db/migrate/20191004213530_create_results.rb",
+		"/home/paul/sport/db/migrate/20191004213431_create_match_teams.rb",
+		"/home/paul/sport/db/migrate/20191004213335_create_teams.rb",
+		"/home/paul/sport/db/migrate/20191004213221_create_matches.rb",
+		"/home/paul/sport/db/migrate/20191004213011_create_players.rb",
+		"/home/paul/sport/db/migrate/20191004213133_create_marks.rb",
+		"/home/paul/.gitconfig",
+		"/home/paul/sport/.git/config",
+		"/home/paul/rack2/remote/.git/config",
+		"/home/paul/match/.git/config",
+		"/home/paul/test-guru/.git/config",
+		"/home/paul/qna/.git/config",
+		"/home/paul/.oh-my-zsh/.git/config",
+		"/home/paul/.git7/config",
+		"/home/paul/sport/.git/HEAD",
+		"/home/paul/sport/.git/info/exclude",
+		"/home/paul/sport/.git/description",
+		"/home/paul/sport/config.ru",
+		"/home/paul/.git/config",
+		"/home/paul/.git/description",
+		"/home/paul/.git/HEAD",
+		"/home/paul/match/app/models/player.rb",
+		"/home/paul/match/db/migrate/20191004184748_create_results.rb",
+		"/home/paul/match/db/migrate/20191004184519_create_game_teams.rb",
+		"/home/paul/match/db/migrate/20191004183650_create_teams.rb",
+		"/home/paul/match/db/migrate/20191004183122_create_games.rb",
+		"/home/paul/match/db/migrate/20191004181948_create_marks.rb",
+		"/home/paul/qna/app/views/questions/index.html.slim",
+		"/home/paul/qna/app/views/layouts/application.html.erb",
+		"/home/paul/match/db/migrate/20191004181605_create_players.rb",
+		"/home/paul/qna/spec/api/v1/questions_spec.rb",
+		"/home/paul/qna/app/helpers/application_helper.rb",
+		"/home/paul/qna/spec/models/answer_spec.rb",
+		"/home/paul/qna/spec/helpers/application_helpers_spec.rb",
+		"/home/paul/qna/spec/models/comment_spec.rb",
+		"/home/paul/qna/Capfile",
+		"/home/paul/qna/Gemfile",
+		"/home/paul/qna/app/models/answer.rb",
+		"/home/paul/qna/config/deploy.rb",
+		"/home/paul/qna/spec/support/omniauth_macros.rb",
+		"/home/paul/qna/config/environments/development.rb",
+		"/home/paul/qna/config/application.rb",
+		"/home/paul/qna/app/views/questions/_question_show.html.slim",
+		"/home/paul/qna/app/views/comments/_comment.html.slim",
+		"/home/paul/qna/app/views/answers/_answer.html.slim",
+		"/home/paul/qna/app/models/comment.rb",
+		"/home/paul/qna/config/unicorn/production.rb",
+		"/home/paul/qna/config/deploy/production.rb",
+		"/home/paul/qna/config/schedule.rb",
+		"/home/paul/qna/log/capistrano.log",
+		"/tmp/5268.credentials.yml",
+		"/tmp/5207.credentials.yml",
+		"/tmp/5155.credentials.yml",
+		"/tmp/4886.credentials.yml",
+		"/tmp/4760.credentials.yml",
+		"/home/paul/qna/db/migrate/20190424191503_add_devise_to_users.rb",
+		"/home/paul/qna/db/migrate/20190808195910_add_confirmable_to_devise.rb",
+		"/home/paul/qna/.ruby-version",
+		"/home/paul/.ssh/id_rsa.pub",
+		"/tmp/25080.credentials.yml",
+		"/home/paul/qna/id_rsa.pub",
+		"/home/paul/qna/app/services/search.rb",
+		"/home/paul/qna/app/controllers/search_controller.rb",
+		"/home/paul/qna/spec/services/search_spec.rb",
+		"/home/paul/qna/app/indices/comments_index.rb",
+		"/home/paul/qna/app/indices/questions_index.rb",
+		"/home/paul/qna/app/views/search/_answer.html.slim",
+		"/home/paul/qna/app/indices/answers_index.rb",
+		"/home/paul/qna/spec/controllers/search_controller_spec.rb",
+		"/home/paul/qna/spec/features/search_spec.rb",
+		"/home/paul/qna/app/views/search/_comment.html.slim",
+		"/home/paul/qna/app/views/search/_question.html.slim",
+		"/home/paul/qna/app/views/search/_user.html.slim",
+		"/home/paul/qna/app/views/search/index.html.slim",
+		"/home/paul/qna/config/database.yml",
+		"/home/paul/qna/config/development.sphinx.conf",
+		"/home/paul/qna/.gitignore",
+		"/home/paul/qna/config/routes.rb",
+		"/home/paul/qna/spec/sphinx_helper.rb",
+		"/home/paul/qna/config/thinking_sphinx.yml",
+		"/home/paul/qna/app/indices/users_index.rb",
+		"/home/paul/qna/spec/services/new_answer_notification_spec.rb",
+		"/home/paul/qna/app/controllers/subscriptions_controller.rb",
+		"/home/paul/qna/spec/jobs/answer_notification_job_spec.rb",
+		"/home/paul/qna/spec/controllers/subscriptions_controller_spec.rb",
+		"/home/paul/qna/spec/features/question/subscription_spec.rb",
+		"/home/paul/qna/spec/jobs/reputation_job_spec.rb",
+		"/home/paul/qna/spec/mailers/previews/new_answer_preview.rb",
+		"/home/paul/qna/spec/models/question_spec.rb",
+		"/home/paul/qna/app/models/question.rb",
+		"/home/paul/qna/app/services/new_answer_notification.rb",
+		"/home/paul/qna/spec/mailers/daily_digest_spec.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/paul/qna",
+			"/home/paul/test-guru"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gist",
+			"not_gist_url",
+			"--index",
+			"1.4.5",
+			"bundl",
+			"bund",
+			"confirmation_token",
+			"2.6.0",
+			"2.6.3",
+			"example.metadata",
+			"exa",
+			"constantize",
+			"%>",
+			"attributes_for",
+			"doe",
+			"invalid",
+			"raise",
+			"another_question",
+			"not_to",
+			"mark_as_best",
+			"expect",
+			"Selenium::Driver",
+			"Selenium::WebDriver",
+			"acceptance_helper",
+			"accep",
+			"sign",
+			"change",
+			"end",
+			"  \n",
+			"pavels357",
+			"query_params",
+			"make_response",
+			"perform_request",
+			"body",
+			"join",
+			"puts",
+			"status",
+			"finish_test",
+			"test_start",
+			"current_question",
+			"correct_answer",
+			"completed",
+			"backend",
+			"rule_value",
+			"select_by_level",
+			"Test",
+			"rule_name",
+			"level",
+			"success",
+			"form",
+			"completed",
+			")\n",
+			"questions_count",
+			"success",
+			"testbadge",
+			"set_badges",
+			"set_tests",
+			"2.3.1",
+			"2.3.7",
+			"flash_mes",
+			"deep",
+			"tests_path",
+			"correct_answers",
+			"accept",
+			"correct_questions",
+			"github_url",
+			"destroy",
+			"find_question",
+			"%>\n",
+			"find_question",
+			"create",
+			"        .",
+			"sqlite",
+			"paul",
+			"about",
+			"moscow",
+			"count_points",
+			"bank",
+			"message_wrong_number",
+			"puts",
+			"show_card",
+			"show_cards",
+			"#",
+			"take_card",
+			"start_game",
+			"#",
+			"points",
+			"dealer_game",
+			"show_money",
+			"start_game",
+			"take_card",
+			"cards",
+			"choose_card",
+			"create_station",
+			"move_train",
+			"==",
+			"set_route",
+			"route",
+			"station_current",
+			"choose_train",
+			"take_cargo_volume",
+			"take_passenger_seat",
+			"take_cargo_volume",
+			"and",
+			"remove_carriage_train",
+			"add_carriage_train",
+			"add_carriage_to_train",
+			"ret",
+			"find_train",
+			"puts \"Введите номер поезда\"",
+			"show_train_carriages",
+			"find_train",
+			"class",
+			"show_stations_and_trains",
+			"вагона",
+			"find_train_carriage_by_number",
+			"find_carriage",
+			"show_carriages",
+			"take_passenger_seat",
+			"show_carriages",
+			"create_carriage",
+			"pus",
+			"find_station_by_number",
+			"gets",
+			"_i",
+			"to",
+			"show_error_train_number",
+			"validate_nunber_train"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "brain-games.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 232.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
