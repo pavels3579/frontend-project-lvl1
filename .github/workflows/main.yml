@@ -12,23 +12,9 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "test"
-  test:
-    # The type of runner that the job will run on
+  build:
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [13.x]
-       
-    steps:    
-    - uses: actions/checkout@master
-    - name: Use Node.js ${{ matrix.node-version }} # Setup node
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-        
-    - name: Install, test # 
-      run: |
-        npm install        
-        make -f lint
+    steps:
+    - uses: actions/checkout@v1
+    - name: run eslint via makefile
+      run: make lint      
