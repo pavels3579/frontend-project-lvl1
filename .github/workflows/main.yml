@@ -30,4 +30,4 @@ jobs:
     - name: Install, test # 
       run: |
         npm install        
-        make lint
+        make -f lint
