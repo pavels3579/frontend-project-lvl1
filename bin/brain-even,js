@@ -1,0 +1,32 @@
+#!/usr/bin/env node
+import readlineSync from 'readline-sync';
+
+const count = 3;
+const question = 'Question: ';
+const correct = 'Correct!';
+const congradulations = 'Congradulations, Bill!';
+const tryAgain = 'Let\s try again, Bill!';
+
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
+
+let isWinner = true;
+
+for (let i = 0; i < count; i += 1) {
+  const randomDigit = Math.floor(Math.random() * 10);
+  console.log(`${question}`, randomDigit.toString());
+  const answer = readlineSync.question('Your answer: ');
+
+  if (randomDigit % 2 === 0 && answer === 'yes' || randomDigit % 2 !== 0 && answer === 'no')
+    console.log(correct);
+  } else {
+    console.log(`${answer} is wrong answer ;(. Correct answer is `);
+    isWinner = false;
+    break;
+  }
+}
+
+if (isWinner) {
+  console.log(congradulations);
+} else {
+  console.log(tryAgain);
+}

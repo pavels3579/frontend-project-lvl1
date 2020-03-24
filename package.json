@@ -4,6 +4,7 @@
   "description": "Brain games - first rroject from Hexlet",
   "main": "src/index.js",
   "bin": {
+    "brain-even": "bin/brain-even.js",
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
