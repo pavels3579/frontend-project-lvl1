@@ -7,7 +7,7 @@ const count = 3;
 const question = 'Question: ';
 const correct = 'Correct!';
 const congradulations = `Congradulations, ${name}!`;
-const tryAgain = `Let\s try again, ${name}!`;
+const tryAgain = `Let's try again, ${name}!`;
 
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
