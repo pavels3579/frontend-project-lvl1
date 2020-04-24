@@ -25,4 +25,4 @@ const playBrainEven = () => {
   main(rule, coll);
 };
 
-export default playBrainEven
+export default playBrainEven;

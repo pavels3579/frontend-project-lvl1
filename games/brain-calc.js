@@ -22,9 +22,8 @@ const playBrainCalc = () => {
       case '-':
         correctAnswer = firstElement - secondElement;
         break;
-      case '*':
+      default:
         correctAnswer = firstElement * secondElement;
-        break;
     }
 
     const task = `${firstElement.toString()} ${sign} ${secondElement.toString()} `;
@@ -34,4 +33,4 @@ const playBrainCalc = () => {
   main(rule, coll);
 };
 
-export default playBrainCalc
+export default playBrainCalc;

@@ -1,11 +1,10 @@
 import readlineSync from 'readline-sync';
-import getName from '../src/get-name.js';
+import welcome from './welcome.js';
+import getName from './get-name.js';
 
 const RoundsCount = 3;
 
-const getRoundsCount = () => {
-  return RoundsCount;
-};
+const getRoundsCount = () => RoundsCount;
 
 const main = (rule, coll) => {
   const name = `${getName()}`;
@@ -17,11 +16,12 @@ const main = (rule, coll) => {
 
   let isWinner = true;
 
+  welcome();
   console.log(rule);
 
-  for (const item of coll) {
-    const task = item[0];
-    const correctAnswer = item[1];
+  for (let i = 0; i < coll.length; i += 1) {
+    const task = coll[i][0];
+    const correctAnswer = coll[i][1];
 
     console.log(`${question}`, task);
     const answer = readlineSync.question('Your answer: ');
@@ -40,7 +40,6 @@ const main = (rule, coll) => {
   } else {
     console.log(tryAgain);
   }
-
 };
 
 export { getRoundsCount, main };
