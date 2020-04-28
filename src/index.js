@@ -8,7 +8,6 @@ const getRoundsCount = () => RoundsCount;
 
 const main = (rule, coll) => {
   const name = `${getName()}`;
-
   const question = 'Question: ';
   const correct = 'Correct!';
   const congradulations = `Congradulations, ${name}!`;
