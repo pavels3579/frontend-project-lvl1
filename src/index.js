@@ -2,9 +2,7 @@ import readlineSync from 'readline-sync';
 import welcome from './welcome.js';
 import getName from './get-name.js';
 
-const RoundsCount = 3;
-
-const getRoundsCount = () => RoundsCount;
+const roundsCount = 3;
 
 const main = (rule, coll) => {
   const name = `${getName()}`;
@@ -41,4 +39,4 @@ const main = (rule, coll) => {
   }
 };
 
-export { getRoundsCount, main };
+export { roundsCount, main };

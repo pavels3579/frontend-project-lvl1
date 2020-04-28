@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-import { getRoundsCount, main } from '../src/index.js';
+import { roundsCount, main } from '../src/index.js';
 
 const playBrainGcd = () => {
-  const roundsCount = getRoundsCount();
-
   const rule = 'Find the greatest common divisor of given numbers.';
 
   let correctAnswer;

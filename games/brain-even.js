@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-import { getRoundsCount, main } from '../src/index.js';
+import { roundsCount, main } from '../src/index.js';
 
 const playBrainEven = () => {
-  const roundsCount = getRoundsCount();
-
   const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   let correctAnswer;

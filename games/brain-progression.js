@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-import { getRoundsCount, main } from '../src/index.js';
+import { roundsCount, main } from '../src/index.js';
 
 const playBrainProgression = () => {
-  const roundsCount = getRoundsCount();
-
   const rule = 'What number is missing in the progression?';
 
   let correctAnswer;

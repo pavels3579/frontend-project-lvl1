@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-import { getRoundsCount, main } from '../src/index.js';
+import { roundsCount, main } from '../src/index.js';
 
 const playBrainCalc = () => {
-  const roundsCount = getRoundsCount();
-
   const rule = 'What is the result of the expression?';
 
   let correctAnswer;

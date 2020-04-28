@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-import { getRoundsCount, main } from '../src/index.js';
+import { roundsCount, main } from '../src/index.js';
 
 const playBrainPrime = () => {
-  const roundsCount = getRoundsCount();
-
   const rule = 'Answer "yes" if the number is prime. Otherwise answer "no".';
 
   let correctAnswer;
