@@ -13,7 +13,7 @@ const playBrainCalc = () => {
   for (let i = 0; i < roundsCount; i += 1) {
     const firstElement = Math.floor(Math.random() * 10) + 1;
     const secondElement = Math.floor(Math.random() * 10) + 1;
-    const sign = signes[Math.floor(Math.random() * 3)];
+    const sign = signes[Math.floor(Math.random() * signes.length)];
 
     switch (sign) {
       case '+':
