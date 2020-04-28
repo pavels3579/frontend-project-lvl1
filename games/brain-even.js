@@ -12,11 +12,7 @@ const playBrainEven = () => {
   for (let i = 0; i < roundsCount; i += 1) {
     const randomDigit = Math.floor(Math.random() * 10) + 1;
 
-    if (randomDigit % 2 === 0) {
-      correctAnswer = 'yes';
-    } else {
-      correctAnswer = 'no';
-    }
+    correctAnswer = (randomDigit % 2 === 0) ? 'yes' : 'no';
 
     const task = randomDigit.toString();
     coll.push([task, correctAnswer]);
