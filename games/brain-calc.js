@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { roundsCount, main } from '../src/index.js';
+import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainCalc = () => {
   const rule = 'What is the result of the expression?';
@@ -9,8 +10,8 @@ const playBrainCalc = () => {
   const signes = ['+', '-', '*'];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const firstElement = Math.floor(Math.random() * 10) + 1;
-    const secondElement = Math.floor(Math.random() * 10) + 1;
+    const firstElement = getRandomNumber(10);
+    const secondElement = getRandomNumber(10);
     const sign = signes[Math.floor(Math.random() * signes.length)];
 
     switch (sign) {

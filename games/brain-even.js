@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { roundsCount, main } from '../src/index.js';
+import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainEven = () => {
   const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -8,7 +9,7 @@ const playBrainEven = () => {
   const coll = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const randomDigit = Math.floor(Math.random() * 10) + 1;
+    const randomDigit = getRandomNumber(10);
 
     correctAnswer = (randomDigit % 2 === 0) ? 'yes' : 'no';
 

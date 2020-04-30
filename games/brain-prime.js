@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { roundsCount, main } from '../src/index.js';
+import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainPrime = () => {
   const rule = 'Answer "yes" if the number is prime. Otherwise answer "no".';
@@ -8,7 +9,7 @@ const playBrainPrime = () => {
   const coll = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const element = Math.floor(Math.random() * 100) + 2;
+    const element = getRandomNumber(100) + 2;
 
     correctAnswer = 'yes';
 

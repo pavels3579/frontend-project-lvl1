@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { roundsCount, main } from '../src/index.js';
+import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainProgression = () => {
   const rule = 'What number is missing in the progression?';
@@ -12,13 +13,13 @@ const playBrainProgression = () => {
 
   for (let i = 0; i < roundsCount; i += 1) {
     task = '';
-    const firstElement = Math.floor(Math.random() * 10) + 1;
-    const progressionStep = Math.floor(Math.random() * 10) + 1;
-    const numberMissingElement = Math.floor(Math.random() * 10) + 1;
+    const firstElement = getRandomNumber(10);
+    const progressionStep = getRandomNumber(10) + 1;
+    const numberMissingElement = getRandomNumber(progressionLength);
     let element;
 
-    for (let e = 1; e <= progressionLength; e += 1) {
-      element = firstElement + (e - 1) * progressionStep;
+    for (let e = 0; e <= progressionLength - 1; e += 1) {
+      element = firstElement + e * progressionStep;
 
       if (e !== numberMissingElement) {
         task += `${element.toString()} `;

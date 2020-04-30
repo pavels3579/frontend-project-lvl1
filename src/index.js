@@ -1,5 +1,4 @@
 import readlineSync from 'readline-sync';
-import welcome from './welcome.js';
 import getName from './get-name.js';
 
 const roundsCount = 3;
@@ -13,12 +12,11 @@ const main = (rule, coll) => {
 
   let isWinner = true;
 
-  welcome();
+  console.log('Welcome to the Brain Games!!!');
   console.log(rule);
 
   for (let i = 0; i < coll.length; i += 1) {
-    const task = coll[i][0];
-    const correctAnswer = coll[i][1];
+    const [task, correctAnswer] = coll[i];
 
     console.log(`${question}`, task);
     const answer = readlineSync.question('Your answer: ');
