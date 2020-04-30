@@ -4,7 +4,6 @@ import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainCalc = () => {
   const rule = 'What is the result of the expression?';
-
   let correctAnswer;
   const coll = [];
   const signes = ['+', '-', '*'];

@@ -4,7 +4,6 @@ import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainProgression = () => {
   const rule = 'What number is missing in the progression?';
-
   let correctAnswer;
   const coll = [];
   const progressionLength = 10;

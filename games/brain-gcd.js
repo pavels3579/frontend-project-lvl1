@@ -5,7 +5,6 @@ import getLowerNumber from '../src/get-lower-number.js';
 
 const playBrainGcd = () => {
   const rule = 'Find the greatest common divisor of given numbers.';
-
   let correctAnswer;
   const coll = [];
   let min;

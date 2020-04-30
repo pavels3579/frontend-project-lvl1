@@ -4,7 +4,6 @@ import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainEven = () => {
   const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
-
   let correctAnswer;
   const coll = [];
 

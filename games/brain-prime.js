@@ -4,7 +4,6 @@ import getRandomNumber from '../src/get-random-number.js';
 
 const playBrainPrime = () => {
   const rule = 'Answer "yes" if the number is prime. Otherwise answer "no".';
-
   let correctAnswer;
   const coll = [];
 
