@@ -9,11 +9,11 @@ const playBrainPrime = () => {
   const coll = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const element = getRandomNumber(100) + 2;
+    const number = getRandomNumber(100) + 2;
 
-    correctAnswer = (isNumberPrime(element)) ? 'yes' : 'no';
+    correctAnswer = (isNumberPrime(number)) ? 'yes' : 'no';
 
-    const task = element.toString();
+    const task = number.toString();
     coll.push([task, correctAnswer]);
   }
 

@@ -12,18 +12,18 @@ const playBrainProgression = () => {
 
   for (let i = 0; i < roundsCount; i += 1) {
     task = '';
-    const firstElement = getRandomNumber(10);
+    const firstNumber = getRandomNumber(10);
     const progressionStep = getRandomNumber(10) + 1;
     const numberMissingElement = getRandomNumber(progressionLength);
-    let element;
+    let number;
 
     for (let e = 0; e <= progressionLength - 1; e += 1) {
-      element = firstElement + e * progressionStep;
+      number = firstNumber + e * progressionStep;
 
       if (e !== numberMissingElement) {
-        task += `${element.toString()} `;
+        task += `${number.toString()} `;
       } else {
-        correctAnswer = element;
+        correctAnswer = number;
         task += '.. ';
       }
     }

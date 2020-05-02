@@ -8,11 +8,11 @@ const playBrainEven = () => {
   const coll = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const randomDigit = getRandomNumber(10);
+    const randomNumber = getRandomNumber(10);
 
-    correctAnswer = (randomDigit % 2 === 0) ? 'yes' : 'no';
+    correctAnswer = (randomNumber % 2 === 0) ? 'yes' : 'no';
 
-    const task = randomDigit.toString();
+    const task = randomNumber.toString();
     coll.push([task, correctAnswer]);
   }
 

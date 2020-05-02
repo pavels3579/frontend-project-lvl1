@@ -1,10 +1,10 @@
-export default (firstElement, secondElement) => {
+export default (firstNumber, secondNumber) => {
   let min;
 
-  if (firstElement < secondElement) {
-    min = firstElement;
+  if (firstNumber < secondNumber) {
+    min = firstNumber;
   } else {
-    min = secondElement;
+    min = secondNumber;
   }
   return min;
 };

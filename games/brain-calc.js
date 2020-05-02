@@ -9,22 +9,22 @@ const playBrainCalc = () => {
   const signes = ['+', '-', '*'];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const firstElement = getRandomNumber(10);
-    const secondElement = getRandomNumber(10);
+    const firstNumber = getRandomNumber(10);
+    const secondNumber = getRandomNumber(10);
     const sign = signes[Math.floor(Math.random() * signes.length)];
 
     switch (sign) {
       case '+':
-        correctAnswer = firstElement + secondElement;
+        correctAnswer = firstNumber + secondNumber;
         break;
       case '-':
-        correctAnswer = firstElement - secondElement;
+        correctAnswer = firstNumber - secondNumber;
         break;
       default:
-        correctAnswer = firstElement * secondElement;
+        correctAnswer = firstNumber * secondNumber;
     }
 
-    const task = `${firstElement.toString()} ${sign} ${secondElement.toString()} `;
+    const task = `${firstNumber.toString()} ${sign} ${secondNumber.toString()} `;
     coll.push([task, correctAnswer.toString()]);
   }
 
