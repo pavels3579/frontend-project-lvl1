@@ -5,11 +5,6 @@ const roundsCount = 3;
 
 const main = (rule, coll) => {
   const name = `${getName()}`;
-  const question = 'Question: ';
-  const correct = 'Correct!';
-  const congradulations = `Congradulations, ${name}!`;
-  const tryAgain = `Let's try again, ${name}!`;
-
   let isWinner = true;
 
   console.log('Welcome to the Brain Games!!!');
@@ -18,11 +13,11 @@ const main = (rule, coll) => {
   for (let i = 0; i < coll.length; i += 1) {
     const [task, correctAnswer] = coll[i];
 
-    console.log(`${question}`, task);
+    console.log('Question: ', task);
     const answer = readlineSync.question('Your answer: ');
 
     if (answer === correctAnswer) {
-      console.log(correct);
+      console.log('Correct!');
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
       isWinner = false;
@@ -30,11 +25,8 @@ const main = (rule, coll) => {
     }
   }
 
-  if (isWinner) {
-    console.log(congradulations);
-  } else {
-    console.log(tryAgain);
-  }
+  const result = isWinner ? `Congradulations, ${name}!` : `Let's try again, ${name}!`;
+  console.log(result);
 };
 
 export { roundsCount, main };
