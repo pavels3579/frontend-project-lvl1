@@ -3,7 +3,7 @@ import getName from './get-name.js';
 
 const roundsCount = 3;
 
-const main = (rule, coll) => {
+const play = (rule, coll) => {
   const name = `${getName()}`;
   let isWinner = true;
 
@@ -29,4 +29,4 @@ const main = (rule, coll) => {
   console.log(result);
 };
 
-export { roundsCount, main };
+export { roundsCount, play };

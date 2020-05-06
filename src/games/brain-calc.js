@@ -1,17 +1,17 @@
 #!/usr/bin/env node
-import { roundsCount, main } from '../src/index.js';
-import getRandomNumber from '../src/get-random-number.js';
+import { roundsCount, play } from '../index.js';
+import getRandomNumber from '../get-random-number.js';
 
 const playBrainCalc = () => {
   const rule = 'What is the result of the expression?';
-  let correctAnswer;
-  const coll = [];
+  const tasks = [];
   const signs = ['+', '-', '*'];
 
   for (let i = 0; i < roundsCount; i += 1) {
     const firstNumber = getRandomNumber(10);
     const secondNumber = getRandomNumber(10);
     const sign = signs[Math.floor(Math.random() * signs.length)];
+    let correctAnswer;
 
     switch (sign) {
       case '+':
@@ -25,10 +25,10 @@ const playBrainCalc = () => {
     }
 
     const task = `${firstNumber.toString()} ${sign} ${secondNumber.toString()} `;
-    coll.push([task, correctAnswer.toString()]);
+    tasks.push([task, correctAnswer.toString()]);
   }
 
-  main(rule, coll);
+  play(rule, tasks);
 };
 
 export default playBrainCalc;
