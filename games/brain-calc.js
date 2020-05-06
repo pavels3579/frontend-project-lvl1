@@ -6,12 +6,12 @@ const playBrainCalc = () => {
   const rule = 'What is the result of the expression?';
   let correctAnswer;
   const coll = [];
-  const signes = ['+', '-', '*'];
+  const signs = ['+', '-', '*'];
 
   for (let i = 0; i < roundsCount; i += 1) {
     const firstNumber = getRandomNumber(10);
     const secondNumber = getRandomNumber(10);
-    const sign = signes[Math.floor(Math.random() * signes.length)];
+    const sign = signs[Math.floor(Math.random() * signs.length)];
 
     switch (sign) {
       case '+':
