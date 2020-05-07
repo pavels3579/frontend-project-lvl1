@@ -7,8 +7,5 @@ start:
 publish:
 	  npm publish  --dry-run
 
-babel:
-	  npx babel src --out-dir dist
-
 lint:
 	  npx eslint .

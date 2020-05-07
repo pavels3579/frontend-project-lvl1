@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { roundsCount, play } from '../index.js';
 import getRandomNumber from '../get-random-number.js';
 
