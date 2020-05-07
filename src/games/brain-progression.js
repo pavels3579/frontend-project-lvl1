@@ -20,9 +20,9 @@ const playBrainProgression = () => {
   const progressionLength = 10;
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const firstNumber = getRandomNumber(10);
-    const progressionStep = getRandomNumber(10) + 1;
-    const numberMissingElement = getRandomNumber(progressionLength - 1);
+    const firstNumber = getRandomNumber(0, 10);
+    const progressionStep = getRandomNumber(1, 10);
+    const numberMissingElement = getRandomNumber(0, progressionLength - 1);
 
     const progressionNumbers = getProgression(firstNumber, progressionStep, progressionLength);
     const correctAnswer = progressionNumbers[numberMissingElement];

@@ -8,8 +8,8 @@ const playBrainCalc = () => {
   const signs = ['+', '-', '*'];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const firstNumber = getRandomNumber(10);
-    const secondNumber = getRandomNumber(10);
+    const firstNumber = getRandomNumber(0, 10);
+    const secondNumber = getRandomNumber(0, 10);
     const sign = signs[Math.floor(Math.random() * signs.length)];
     let correctAnswer;
 

@@ -3,15 +3,15 @@ import getName from './get-name.js';
 
 const roundsCount = 3;
 
-const play = (rule, coll) => {
+const play = (rule, tasks) => {
   const name = `${getName()}`;
   let isWinner = true;
 
   console.log('Welcome to the Brain Games!!!');
   console.log(rule);
 
-  for (let i = 0; i < coll.length; i += 1) {
-    const [task, correctAnswer] = coll[i];
+  for (let i = 0; i < tasks.length; i += 1) {
+    const [task, correctAnswer] = tasks[i];
 
     console.log('Question: ', task);
     const answer = readlineSync.question('Your answer: ');

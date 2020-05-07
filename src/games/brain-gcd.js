@@ -27,8 +27,8 @@ const playBrainGcd = () => {
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const firstNumber = getRandomNumber(10) + 1;
-    const secondNumber = getRandomNumber(10) + 1;
+    const firstNumber = getRandomNumber(1, 10);
+    const secondNumber = getRandomNumber(1, 10);
     const correctAnswer = getGcdTwoNumbers(firstNumber, secondNumber);
 
     const task = `${firstNumber.toString()} ${secondNumber.toString()} `;

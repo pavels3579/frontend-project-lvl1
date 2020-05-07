@@ -7,7 +7,7 @@ const playBrainEven = () => {
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const randomNumber = getRandomNumber(10);
+    const randomNumber = getRandomNumber(0, 10);
 
     const correctAnswer = (randomNumber % 2 === 0) ? 'yes' : 'no';
 

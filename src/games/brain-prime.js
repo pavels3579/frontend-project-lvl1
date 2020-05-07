@@ -16,7 +16,7 @@ const playBrainPrime = () => {
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const number = getRandomNumber(100) + 2;
+    const number = getRandomNumber(2, 100);
 
     const correctAnswer = (isNumberPrime(number)) ? 'yes' : 'no';
 
