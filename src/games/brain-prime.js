@@ -1,9 +1,13 @@
 import { roundsCount, play } from '../index.js';
 import getRandomNumber from '../get-random-number.js';
 
-const isNumberPrime = (number) => {
-  for (let e = 2; e <= number / 2; e += 1) {
-    if (number % e === 0) {
+const isPrime = (number) => {
+  if (number < 2) {
+    return false;
+  }
+
+  for (let i = 2; i <= number / 2; i += 1) {
+    if (number % i === 0) {
       return false;
     }
   }
@@ -15,9 +19,9 @@ const playBrainPrime = () => {
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const number = getRandomNumber(2, 100);
+    const number = getRandomNumber(0, 100);
 
-    const correctAnswer = (isNumberPrime(number)) ? 'yes' : 'no';
+    const correctAnswer = (isPrime(number)) ? 'yes' : 'no';
 
     const task = number.toString();
     tasks.push([task, correctAnswer]);

@@ -9,7 +9,7 @@ const playBrainCalc = () => {
   for (let i = 0; i < roundsCount; i += 1) {
     const firstNumber = getRandomNumber(0, 10);
     const secondNumber = getRandomNumber(0, 10);
-    const sign = signs[Math.floor(Math.random() * signs.length)];
+    const sign = signs[getRandomNumber(0, signs.length - 1)];
     let correctAnswer;
 
     switch (sign) {
@@ -23,7 +23,7 @@ const playBrainCalc = () => {
         correctAnswer = firstNumber * secondNumber;
     }
 
-    const task = `${firstNumber.toString()} ${sign} ${secondNumber.toString()} `;
+    const task = `${firstNumber} ${sign} ${secondNumber} `;
     tasks.push([task, correctAnswer.toString()]);
   }
 

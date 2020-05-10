@@ -5,7 +5,7 @@ const getProgression = (firstNumber, progressionStep, progressionLength) => {
   const elements = [];
   let number;
 
-  for (let e = 0; e <= progressionLength - 1; e += 1) {
+  for (let e = 0; e < progressionLength; e += 1) {
     number = firstNumber + e * progressionStep;
     elements.push(number);
   }
@@ -21,11 +21,11 @@ const playBrainProgression = () => {
   for (let i = 0; i < roundsCount; i += 1) {
     const firstNumber = getRandomNumber(0, 10);
     const progressionStep = getRandomNumber(1, 10);
-    const numberMissingElement = getRandomNumber(0, progressionLength - 1);
+    const missingElementNumber = getRandomNumber(0, progressionLength - 1);
 
     const progressionNumbers = getProgression(firstNumber, progressionStep, progressionLength);
-    const correctAnswer = progressionNumbers[numberMissingElement];
-    progressionNumbers[numberMissingElement] = '..';
+    const correctAnswer = progressionNumbers[missingElementNumber];
+    progressionNumbers[missingElementNumber] = '..';
     const task = progressionNumbers.join(' ');
     tasks.push([task, correctAnswer.toString()]);
   }

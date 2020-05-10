@@ -30,7 +30,7 @@ const playBrainGcd = () => {
     const secondNumber = getRandomNumber(1, 10);
     const correctAnswer = getGcdTwoNumbers(firstNumber, secondNumber);
 
-    const task = `${firstNumber.toString()} ${secondNumber.toString()} `;
+    const task = `${firstNumber} ${secondNumber} `;
     tasks.push([task, correctAnswer.toString()]);
   }
 

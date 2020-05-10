@@ -1,10 +1,9 @@
 import readlineSync from 'readline-sync';
-import getName from './get-name.js';
 
 const roundsCount = 3;
 
 const play = (rule, tasks) => {
-  const name = `${getName()}`;
+  const name = readlineSync.question('May I have your name? ');
   let isWinner = true;
 
   console.log('Welcome to the Brain Games!!!');
