@@ -4,7 +4,6 @@ const roundsCount = 3;
 
 const play = (rule, tasks) => {
   const name = readlineSync.question('May I have your name? ');
-  let isWinner = true;
 
   console.log('Welcome to the Brain Games!!!');
   console.log(rule);
@@ -19,13 +18,12 @@ const play = (rule, tasks) => {
       console.log('Correct!');
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
-      isWinner = false;
-      break;
+      console.log(`Let's try again, ${name}!`);
+      return;
     }
   }
 
-  const result = isWinner ? `Congradulations, ${name}!` : `Let's try again, ${name}!`;
-  console.log(result);
+  console.log(`Congradulations, ${name}!`);
 };
 
 export { roundsCount, play };
