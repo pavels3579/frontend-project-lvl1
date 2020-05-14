@@ -1,6 +1,8 @@
 import { roundsCount, play } from '../index.js';
 import getRandomNumber from '../get-random-number.js';
 
+const rule = 'Find the greatest common divisor of given numbers.';
+
 const getLowerNumber = (firstNumber, secondNumber) => {
   if (firstNumber < secondNumber) {
     return firstNumber;
@@ -8,7 +10,7 @@ const getLowerNumber = (firstNumber, secondNumber) => {
   return secondNumber;
 };
 
-const getGcdTwoNumbers = (firstNumber, secondNumber) => {
+const getGcd = (firstNumber, secondNumber) => {
   const min = getLowerNumber(firstNumber, secondNumber);
 
   let gcd = 1;
@@ -22,13 +24,12 @@ const getGcdTwoNumbers = (firstNumber, secondNumber) => {
 };
 
 const playBrainGcd = () => {
-  const rule = 'Find the greatest common divisor of given numbers.';
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
     const firstNumber = getRandomNumber(1, 10);
     const secondNumber = getRandomNumber(1, 10);
-    const correctAnswer = getGcdTwoNumbers(firstNumber, secondNumber);
+    const correctAnswer = getGcd(firstNumber, secondNumber);
 
     const task = `${firstNumber} ${secondNumber} `;
     tasks.push([task, correctAnswer.toString()]);

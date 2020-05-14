@@ -8,7 +8,7 @@ const play = (rule, tasks) => {
   console.log('Welcome to the Brain Games!!!');
   console.log(rule);
 
-  for (let i = 0; i < tasks.length; i += 1) {
+  for (let i = 0; i < roundsCount; i += 1) {
     const [task, correctAnswer] = tasks[i];
 
     console.log('Question: ', task);

@@ -1,6 +1,8 @@
 import { roundsCount, play } from '../index.js';
 import getRandomNumber from '../get-random-number.js';
 
+const rule = 'What number is missing in the progression?';
+
 const getProgression = (firstNumber, progressionStep, progressionLength) => {
   const elements = [];
   let number;
@@ -14,7 +16,6 @@ const getProgression = (firstNumber, progressionStep, progressionLength) => {
 };
 
 const playBrainProgression = () => {
-  const rule = 'What number is missing in the progression?';
   const tasks = [];
   const progressionLength = 10;
 

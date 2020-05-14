@@ -1,6 +1,8 @@
 import { roundsCount, play } from '../index.js';
 import getRandomNumber from '../get-random-number.js';
 
+const rule = 'Answer "yes" if the number is prime. Otherwise answer "no".';
+
 const isPrime = (number) => {
   if (number < 2) {
     return false;
@@ -15,7 +17,6 @@ const isPrime = (number) => {
 };
 
 const playBrainPrime = () => {
-  const rule = 'Answer "yes" if the number is prime. Otherwise answer "no".';
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {

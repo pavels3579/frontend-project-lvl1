@@ -1,10 +1,11 @@
 import { roundsCount, play } from '../index.js';
 import getRandomNumber from '../get-random-number.js';
 
+const rule = 'What is the result of the expression?';
+const signs = ['+', '-', '*'];
+
 const playBrainCalc = () => {
-  const rule = 'What is the result of the expression?';
   const tasks = [];
-  const signs = ['+', '-', '*'];
 
   for (let i = 0; i < roundsCount; i += 1) {
     const firstNumber = getRandomNumber(0, 10);
@@ -19,11 +20,14 @@ const playBrainCalc = () => {
       case '-':
         correctAnswer = firstNumber - secondNumber;
         break;
-      default:
+      case '*':
         correctAnswer = firstNumber * secondNumber;
+        break;
+      default:
+        correctAnswer = null;
     }
 
-    const task = `${firstNumber} ${sign} ${secondNumber} `;
+    const task = `${firstNumber} ${sign} ${secondNumber}`;
     tasks.push([task, correctAnswer.toString()]);
   }
 
