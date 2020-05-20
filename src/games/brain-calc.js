@@ -24,7 +24,6 @@ const playBrainCalc = () => {
         correctAnswer = firstNumber * secondNumber;
         break;
       default:
-        correctAnswer = null;
     }
 
     const task = `${firstNumber} ${sign} ${secondNumber}`;

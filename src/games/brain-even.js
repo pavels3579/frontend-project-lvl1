@@ -7,12 +7,11 @@ const playBrainEven = () => {
   const tasks = [];
 
   for (let i = 0; i < roundsCount; i += 1) {
-    const randomNumber = getRandomNumber(0, 10);
+    const task = getRandomNumber(0, 10);
 
-    const correctAnswer = (randomNumber % 2 === 0) ? 'yes' : 'no';
+    const correctAnswer = (task % 2 === 0) ? 'yes' : 'no';
 
-    const task = randomNumber.toString();
-    tasks.push([task, correctAnswer]);
+    tasks.push([task.toString(), correctAnswer]);
   }
 
   play(rule, tasks);
